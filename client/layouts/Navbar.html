@@ -1,0 +1,17 @@
+<template name="Navbar">
+    
+<div class="pure-menu pure-menu-horizontal">
+    <a href="/" class="pure-menu-heading"><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> GiftMe</a>
+    <ul class="pure-menu-list">
+        <li class="pure-menu-item pure-menu-selected"><a href="/gifteeHome" class="pure-menu-link">
+            Schedule a Gift</a></li>
+        <li class="pure-menu-item pure-menu-selected"><a href="/giftOrders" class="pure-menu-link">
+            My Orders</a></li>
+        {{#if currentUser}}
+        <li class="pure-menu-item pure-menu-selected"><a href="/admin" class="pure-menu-link">Admin Page</a></li>
+        {{/if}}
+        <li class="pure-menu-item"><a class="pure-menu-link">{{> loginButtons align="right"}}</a></li>
+    </ul>
+</div>
+
+</template>
