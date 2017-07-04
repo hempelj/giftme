@@ -5,11 +5,13 @@
 
 html {
     height: 100%;
+    width: 100%;
 }
 
 body {
     color: #526066;
     height: 100%;
+    width: 100%;
 }
 
 p {
@@ -123,8 +125,8 @@ p {
     }
 
 .gifteeForm {
-    padding: 2em 10% 2em 10%;
-    margin: 10%;
+    padding: 4em;
+    margin: 4em;
     background-color: rgba(148, 148, 148, 0.2);
 }
 
@@ -135,12 +137,15 @@ p {
 
 .content {
     min-height: 100%;
+    padding: 4em;
     position: relative;
 }
 
 .innerContent {
     margin-left: 10%
 }
+
+
 
 
 /*

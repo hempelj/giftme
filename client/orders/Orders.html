@@ -1,0 +1,8 @@
+<template name="Orders">
+    <h2>My Orders</h2>
+    {{#each giftOrders}}
+        {{> giftOrder giftOrders}}
+    {{else}}
+        <h3>To order a gift, go <a href="/gifteeHome">here</a>.</h3>
+    {{/each}}
+</template>

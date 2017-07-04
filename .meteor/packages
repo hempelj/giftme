@@ -34,6 +34,8 @@ aldeed:autoform
 aldeed:collection2-core@2.0.0
 kadira:flow-router
 kadira:blaze-layout
+meteortoys:allthings
+datariot:ganalytics
+mbeaudru:link-preview
 
 standard-minifiers      # JS/CSS minifiers run for production mode
-

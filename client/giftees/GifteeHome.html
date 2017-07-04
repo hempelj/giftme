@@ -1,0 +1,17 @@
+<template name="GifteeHome">
+    <header>
+      <h2>Schedule Gift Delivery</h2>
+    </header>
+ 
+    <ul>
+    {{#if Template.subscriptionsReady}}
+        {{#each giftees}}
+            <li><a href="/orderForm/{{_id}}">{{name}}</a></li>
+        {{else}}
+        <h3>Please <a href="/gifteeForm">add a profile</a> for the person you wish to order a gift for.</h3>
+        {{/each}}
+    {{/if}}
+    </ul>
+    <a href="/gifteeForm" class="btn btn-primary btn-lg" role="button">Create Gift Profile</a>
+    
+</template>
